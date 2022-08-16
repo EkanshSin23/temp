@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body .container {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body .container h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body .container .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+body .container .form .title {
+  font-size: 25px;
+  color: gray;
+  margin: 5px;
+  padding: 10px;
+  align-items: center;
+}
+
+body .container .form .inputDiv {
+  display: flex;
+  justify-content: center;
+}
+
+body .container .form .inputDiv .input {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  padding: 10px;
+  background: transparent;
+}
+
+body .container .form .buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+body .container .form .buttonDiv .button {
+  color: gray;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  transition: all 0.2s;
+  font-weight: bold;
+}
+
+body .container .form .buttonDiv .button:hover {
+
+  color: white;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+
+body .container .details .city {
+  color: gray;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.css.map */
